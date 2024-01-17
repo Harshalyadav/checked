@@ -1,14 +1,10 @@
 {
     "version": 2,
     "builds": [
-      {
-        "src": "renderer/**/*",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "main/background.js",
-        "use": "@vercel/node"
-      }
+        {
+            "src": "next.config.js",
+            "use": "@vercel/next"
+          }
     ],
      "rewrites": [
       { 
